@@ -69,6 +69,11 @@
     font-weight: bold;
     margin-top: 10px;
   }
+
+  #cart-page {
+    position: relative;
+    padding-bottom: 80px; 
+}
   
   button[onclick="checkout()"] {
     background-color: #0bc1ac;

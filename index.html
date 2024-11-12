@@ -24,13 +24,17 @@
   </div>
 
   <!-- Página del Carrito -->
-  <div id="cart-page" class="page">
-    <h1>Carrito de Compras</h1>
-    <div id="cart-items"></div>
-    <p id="total-price">Total: $0</p>
-    <button onclick="checkout()">Realizar Pago</button>
-    <button onclick="showPage('product-page')">Regresar al Menú</button>
-  </div>
+<div id="cart-page" class="page">
+  <h1>Carrito de Compras</h1>
+  <div id="cart-items"></div>
+  <p id="total-price">Total: $0</p>
+  <button onclick="showPage('product-page')">Regresar al Menú</button>
+</div>
+
+<!-- Contenedor fijo para el botón de pago -->
+<div id="checkout-button-container">
+  <button onclick="checkout()">Realizar Pago</button>
+</div>
 
   <script src="app.js"></script>
 </body>
