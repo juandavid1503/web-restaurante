@@ -83,7 +83,7 @@ function checkout() {
         alert('El carrito está vacío.');
         return;
     }
-    alert('¡Pedido realizado con éxito!');
+    alert('¡Pago éxitoso!');
     cart = [];
     renderCart();
 }
