@@ -20,7 +20,7 @@ products.forEach(product => {
     const productEl = document.createElement('div');
     productEl.classList.add('product');
     productEl.innerHTML = `
-        <img src="${product.image}" alt="${product.name}" style="width:100px; height:auto; border-radius: 8px;">
+        <img src="hamburguesa.pjg" alt="" style="width:100px; height:auto; border-radius: 8px;">
         <h3>${product.name}</h3>
         <p>Precio: $${product.price}</p>
         <button onclick="addToCart(${product.id})">Añadir al Carrito</button>
